@@ -16,6 +16,7 @@ You can use this app as your final year project. Where you can write, read, upda
 3. Now create a `.env` with following parameters
 ```env
 MONGO_URI = mongodb+srv://<user-name>:<password>@cluster0.durng6q.mongodb.net/<db-name>?retryWrites=true&w=majority&appName=Cluster0
+PORT = 5000
 ```
 
 `note:` connection will only get established when you are successfully connected to MongoDB server.
